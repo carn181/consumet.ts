@@ -1412,7 +1412,7 @@ class Anilist extends AnimeParser {
    * @param perPage number of results per page (optional)
    */
   fetchRecentEpisodes = async (
-    provider: 'gogoanime' | 'zoro' = 'gogoanime',
+    provider: 'gogoanime' | 'zoro' = 'zoro',
     page: number = 1,
     perPage: number = 25
   ): Promise<ISearch<IAnimeResult>> => {
