@@ -45,7 +45,7 @@ class Anify extends AnimeParser {
   constructor(
     protected proxyConfig?: ProxyConfig,
     protected adapter?: AxiosAdapter,
-    protected providerId: ProviderId = 'gogoanime'
+    protected providerId: ProviderId = 'zoro'
   ) {
     super(proxyConfig, adapter);
   }
