@@ -187,7 +187,7 @@ class Anify extends AnimeParser {
    */
   fetchAnimeInfoByAnilistId = async (
     id: string,
-    providerId: '9anime' | 'animepahe' | 'zoro' | 'gogoanime' = 'gogoanime'
+    providerId: '9anime' | 'animepahe' | 'zoro' | 'gogoanime' = 'zoro'
   ): Promise<IAnimeInfo> => {
     const animeInfo: IAnimeInfo = {
       id: id,
